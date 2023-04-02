@@ -1,0 +1,57 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #inputupdate{
+    width:100px;
+    /* border:none; */
+    border-color:green;
+    border-width :0000.1px;
+    
+  }
+  
+  form {
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+   
+   
+  }
+  
+  form:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transform: translateZ(-1px);
+    z-index: -1;
+  }
+  
+  form:after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: -2;
+  }
+  
+  #button{
+    margin-left:20px;
+    margin-top:10px;
+  }
+  
+  
